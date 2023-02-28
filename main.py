@@ -1,16 +1,11 @@
-# This is a sample Python script.
+# С клавиатуры вводятся поочередно N слов. Напишите программу, которая соединяет эти слова в одну длинную строку.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-"gtyui"
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+stroka=[]
+m=3
+for i in range(m):
+    stroka.append(imput())
+    word = ''. join(stroka)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print()
